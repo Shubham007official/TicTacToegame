@@ -36,6 +36,8 @@
             android:src="@drawable/cross_icon"/>
 
         <EditText
+            android:inputType="text"
+            android:maxLines="1"
             android:id="@+id/playerOneName"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -65,6 +67,8 @@
             android:src="@drawable/zero_icon" />
 
         <EditText
+            android:inputType="text"
+            android:maxLines="1"
             android:id="@+id/playerTwoName"
             android:layout_width="match_parent"
             android:layout_height="50dp"
