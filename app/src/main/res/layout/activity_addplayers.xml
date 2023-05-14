@@ -64,7 +64,7 @@
             android:layout_width="29dp"
             android:layout_height="34dp"
             android:adjustViewBounds="true"
-            android:src="@drawable/zero_icon" />
+            android:src="@drawable/zero_icon"/>
 
         <EditText
             android:inputType="text"

@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private final List<int[]> combinationsList = new ArrayList<>();
 
-    private int [] boxPositions = {0,0,0,0,0,0,0,0};
+    private int [] boxPositions = {0,0,0,0,0,0,0,0,0};
 
     private int  playerTurn = 1;
 
@@ -233,6 +234,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (boxPositions[boxPosition] == 0){
             response = true;
+
         }
         return response;
     }
